@@ -211,3 +211,125 @@ a{
     font-size: 30px;
 }
 }
+
+@media (max-width: 500px){
+    #container{
+        margin-left: 65px;
+        margin-top: 40px;
+        align-items: center;
+    }
+    
+    h2{
+        font-family: 'Big Shoulders Display', cursive;
+        color:hsla(0, 0%, 100%, 0.75);
+        font-size: 70px;
+        margin-left: 80px;
+        position: relative;
+        top: 65px;
+        font-weight: 700;
+    }
+    
+    p{
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        color:hsla(0, 0%, 100%, 0.75);
+        text-align: left;
+        margin: 0px 80px 20px 80px;
+        font-size: 30px;
+        position: relative;
+        top: 60px;
+        line-height: 40px;
+    }
+    
+    #sedans, #suvs, #luxury{ 
+        width: 800px;
+        height: 600px;
+        align-items: center;
+
+    }
+    
+    
+img{
+    width: 100px;
+    position: relative;
+    top: 70px;
+    left: 75px;
+}
+.button{
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
+a{
+    background-color: hsl(0, 0%, 95%);
+    position: relative;
+    top: 100px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+}
+
+@media (max-width: 450px){
+    #container{
+        margin-left:45px;
+        margin-top: 40px;
+        align-items: center;
+    }
+    
+    h2{
+        font-family: 'Big Shoulders Display', cursive;
+        color:hsla(0, 0%, 100%, 0.75);
+        font-size: 70px;
+        margin-left: 80px;
+        position: relative;
+        top: 65px;
+        font-weight: 700;
+    }
+    
+    p{
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        color:hsla(0, 0%, 100%, 0.75);
+        text-align: left;
+        margin: 0px 80px 20px 80px;
+        font-size: 30px;
+        position: relative;
+        top: 60px;
+        line-height: 40px;
+    }
+    
+    #sedans, #suvs, #luxury{ 
+        width: 850px;
+        height: 700px;
+        align-items: center;
+
+    }
+    
+    
+img{
+    width: 100px;
+    position: relative;
+    top: 70px;
+    left: 75px;
+}
+.button{
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
+a{
+    background-color: hsl(0, 0%, 95%);
+    position: relative;
+    top: 100px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+}

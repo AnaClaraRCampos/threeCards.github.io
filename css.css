@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+
+#container{
+
+    height: 500px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    margin-top: 80px;
+}
+
+.cards{
+    display: inline-block;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 40px;
+    margin-left: 50px;
+    position: relative;
+    top: 50px;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    margin: 0px 45px 20px 50px;
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    line-height: 25px;
+}
+
+#sedans, #suvs, #luxury{ 
+    width: 300px;
+    height: 500px;
+}
+
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+img{
+    position: relative;
+    top: 50px;
+    left: 55px;
+}
+
+a{
+    background-color: hsl(0, 0%, 95%);
+    position: relative;
+    top: 100px;
+    padding: 15px 50px;
+    border-radius: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.button{
+    text-align: center;
+}
+
+#button1{
+    color: hsl(31, 77%, 52%);
+}
+#button2{
+    color: hsl(184, 100%, 22%);
+}
+#button3{
+    color: hsl(179, 100%, 13%);
+}
+
+
